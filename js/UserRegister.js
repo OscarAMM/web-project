@@ -1,5 +1,4 @@
 var accept = document.getElementById('accept');
-var cancel = document.getElementById('cancel');
 
 accept.addEventListener("click", function () {
     var name = document.getElementById('name').value;
@@ -11,8 +10,4 @@ accept.addEventListener("click", function () {
     } else if(name == "" && pass == pass.value){
         alert("¡Tientes que ingresar tus datos!");
     }
-});
-
-cancel.addEventListener("click", function(){
-    window.location.href = "index.php";
 });
